@@ -1,0 +1,22 @@
+dataset1
+Angry iteration: 1313
+Happy iteration: 3740
+Neutral iteration: 4027
+Sad iteration: 3934
+Surprise iteration: 1234
+
+dataset2
+angry iteration: 4953
+disgusted iteration: 547
+fearful iteration: 5121
+happy iteration: 8989
+neutral iteration: 6198
+sad iteration: 6077
+surprised iteration: 4002
+
+sum
+Angry     6266  | Happy     12729 | Neutral   10225
+		|		  |
+Sad       10011 | Surprise  5236  | Fearful   5121
+		|		  |
+Disgusted 547   |		  |
