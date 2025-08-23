@@ -1,2 +1,13 @@
 # Emotion-Detector
-Small PyQt6 GUI program that uses AI to detect and recognize emotions: Angry, Happy, Neutral, Sad, Surprise, Fearful, and Disgusted
+Программа на Python для определения эмоций на фото. Предусмотренные эмоции: злость, счастье, нейтральный, грусть, удивление, страх и отвращение. 
+
+Распознавание эмоций происходит при помощи свёрточной нейронной сети обученной на следующих датасетах:
+
+[dataset1](https://www.kaggle.com/datasets/sujaykapadnis/emotion-recognition-dataset/data)
+
+[archive2](https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer/data)
+
+Распознование лиц на фотографиях происходит с помощью библиотеки [mtcnn](https://pypi.org/project/mtcnn/).
+В качестве графической библиотеки используется PyQt6. Приложение использует камеру устройства для создания изображений, также доступна загрузка из внешних источников.
+
+
